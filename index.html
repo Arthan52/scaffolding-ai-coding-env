@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scaffolding AI Coding Environment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-icon">AI</div>
+          <div>
+            <p class="eyebrow">SMK Coding Lab</p>
+            <h1>Scaffolding AI</h1>
+          </div>
+        </div>
+
+        <nav class="topnav">
+          <a href="#materi">Materi</a>
+          <a href="#latihan">Latihan</a>
+          <a href="#AI Tutor">AI Tutor</a>
+          <a href="#progress">Progress</a>
+        </nav>
+
+        <button class="primary-btn">Mulai Belajar</button>
+      </header>
+
+      <main class="main-layout">
+        <section class="hero card">
+          <div class="hero-copy">
+            <span class="pill">Faded Worked-Examples</span>
+            <h2>Belajar coding sambil memahami prosesnya, bukan sekadar menyalin jawaban.</h2>
+            <p>
+              Platform pembelajaran berbasis scaffolding AI yang membimbing siswa secara bertahap,
+              meminimalkan boilerplate blindspot, dan membantu mereka memahami logika program di setiap langkah.
+            </p>
+            <div class="hero-actions">
+              <button class="primary-btn">Lanjutkan Modul</button>
+              <button class="ghost-btn">Lihat Contoh</button>
+            </div>
+            <div class="hero-metrics">
+              <div>
+                <strong>12</strong>
+                <span>Modul</span>
+              </div>
+              <div>
+                <strong>86%</strong>
+                <span>Rata-rata</span>
+              </div>
+              <div>
+                <strong>4.9</strong>
+                <span>Rating siswa</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="mini-card stats-card">
+              <span class="mini-label">Progress Hari Ini</span>
+              <h3>72%</h3>
+              <div class="bar-wrap">
+                <span class="bar" style="width: 72%"></span>
+              </div>
+              <small>2 dari 3 tugas selesai</small>
+            </div>
+
+            <div class="mini-card code-preview">
+              <div class="code-header">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <pre><code>for (let i = 0; i &lt; 5; i++) {
+  console.log('Belajar:', i);
+}</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section class="features-grid" id="materi">
+          <article class="feature-card card">
+            <div class="icon-box blue">01</div>
+            <h3>Materi Interaktif</h3>
+            <p>Panduan singkat, visual, dan contoh nyata agar siswa memahami konsep dasar pemrograman.</p>
+          </article>
+          <article class="feature-card card">
+            <div class="icon-box green">02</div>
+            <h3>Worked Example</h3>
+            <p>Contoh lengkap dijelaskan langkah demi langkah agar siswa membaca logika, bukan sekadar copy paste.</p>
+          </article>
+          <article class="feature-card card">
+            <div class="icon-box purple">03</div>
+            <h3>AI Scaffolding</h3>
+            <p>AI memberi panduan bertahap: hint, penjelasan, lalu jawaban lengkap hanya bila benar-benar dibutuhkan.</p>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <aside class="course-panel card">
+            <div class="panel-header">
+              <h3>Modul Belajar</h3>
+              <span class="badge active">Aktif</span>
+            </div>
+
+            <div class="module-list">
+              <div class="module-item active">
+                <div>
+                  <strong>1. Variabel & Tipe Data</strong>
+                  <small>2 submateri</small>
+                </div>
+                <span>✓</span>
+              </div>
+              <div class="module-item">
+                <div>
+                  <strong>2. Percabangan</strong>
+                  <small>3 submateri</small>
+                </div>
+                <span>3</span>
+              </div>
+              <div class="module-item">
+                <div>
+                  <strong>3. Perulangan</strong>
+                  <small>5 submateri</small>
+                </div>
+                <span>5</span>
+              </div>
+              <div class="module-item">
+                <div>
+                  <strong>4. Fungsi</strong>
+                  <small>4 submateri</small>
+                </div>
+                <span>4</span>
+              </div>
+            </div>
+          </aside>
+
+          <section class="lesson-panel card" id="latihan">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Modul Saat Ini</p>
+                <h3>Perulangan dan Repetisi</h3>
+              </div>
+              <button class="secondary-btn">Lihat Penjelasan</button>
+            </div>
+
+            <div class="lesson-body">
+              <div class="lesson-copy">
+                <p>
+                  Perulangan digunakan ketika kita ingin menjalankan blok program berulang kali berdasarkan
+                  kondisi tertentu. Dalam JavaScript, loop <strong>for</strong> sangat umum dipakai untuk menghitung,
+                  mengiterasi array, atau menghasilkan pola.
+                </p>
+                <div class="callout-box">
+                  <strong>Contoh lengkap:</strong>
+                  <pre><code>for (let i = 1; i &lt;= 5; i++) {
+  console.log("Angka:", i);
+}</code></pre>
+                </div>
+              </div>
+
+              <div class="exercise-box">
+                <div class="exercise-header">
+                  <div>
+                    <span class="task-label">Tugas</span>
+                    <h4>Buat program untuk menampilkan angka 1 sampai 5</h4>
+                  </div>
+                  <button class="primary-btn small-btn" id="hintBtn">Bantuan AI</button>
+                </div>
+
+                <div class="editor-shell">
+                  <div class="editor-topbar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <textarea id="codeEditor" spellcheck="false">for (let i = 1; i &lt;= 5; i++) {
+  console.log("Angka:", i);
+}</textarea>
+                </div>
+
+                <div class="exercise-actions">
+                  <button class="secondary-btn" id="answerBtn">Cek Jawaban</button>
+                  <button class="ghost-btn">Reset</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <aside class="chat-panel card" id="AI Tutor">
+            <div class="panel-header">
+              <h3>AI Tutor</h3>
+              <span class="online-dot"></span>
+            </div>
+
+            <div class="chat-box" id="chatBox">
+              <div class="message ai">
+                <strong>AI Tutor</strong>
+                <p>Coba pikirkan: apa yang harus diubah agar program menampilkan angka 1 sampai 5?</p>
+              </div>
+              <div class="message user">
+                <strong>Siswa</strong>
+                <p>Apakah saya harus memakai loop for?</p>
+              </div>
+            </div>
+
+            <div class="chat-input-wrap">
+              <input type="text" id="chatInput" placeholder="Ketik pertanyaanmu..." />
+              <button id="sendChat">Kirim</button>
+            </div>
+          </aside>
+        </section>
+
+        <section class="progress-section card" id="progress">
+          <div class="panel-header">
+            <h3>Progress Siswa</h3>
+            <span class="badge success">Sedang Berjalan</span>
+          </div>
+
+          <div class="progress-grid">
+            <div>
+              <label>Modul selesai</label>
+              <div class="bar-wrap"><span class="bar green" style="width: 78%"></span></div>
+              <small>7 dari 9 modul selesai</small>
+            </div>
+            <div>
+              <label>Skor latihan</label>
+              <div class="bar-wrap"><span class="bar blue" style="width: 86%"></span></div>
+              <small>86 / 100</small>
+            </div>
+            <div>
+              <label>Kemampuan debug</label>
+              <div class="bar-wrap"><span class="bar purple" style="width: 72%"></span></div>
+              <small>Lebih cepat memahami bug</small>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
